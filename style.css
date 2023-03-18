@@ -1,0 +1,131 @@
+* {
+ margin: 0px;
+ box-sizing: border-box;
+ color: white;
+}
+a {
+ text-decoration: none !important;
+}
+.preview-header {
+ display: flex;
+ justify-content: space-between;
+ font-size: 12px;
+ background-color: #206b65;
+ line-height: 30px;
+}
+.header-buy-now {
+ background-color: #82b440;
+ padding: 10px;
+ font-size: 18px;
+ color: white;
+ box-sizing: border-box;
+ margin: 20px 20px 20px 20px;
+ cursor: pointer;
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ border-radius: 4px;
+ text-decoration: none;
+}
+.preview-envato-logo {
+ width: 20px;
+}
+.logo-main {
+ height: 50px;
+ margin: 5px;
+}
+.preview-action--buy {
+ margin-top: 21px;
+}
+.divide-row-into-3 {
+ display: flex;
+ border-right: 1px solid #ddd;
+ float: left;
+ width: 25%;
+ padding: 10px;
+ height: 50px;
+ text-decoration: none;
+ background: #0e1e2a;
+ text-align: right;
+ font-family: "Poppins", sans-serif;
+}
+.divide-row-into-3:last-child {
+ border-right: none !important;
+}
+.header-top-social-media {
+ display: flex;
+ padding: 1rem;
+}
+.socials {
+ padding: 0px 10px;
+}
+.row-align-item-center {
+ color: white;
+}
+.icons i {
+ color: #104cba;
+ padding-right: 10px;
+ padding-top: 7px;
+}
+.last-col {
+ background-color: blue;
+ font-family: "Poppins", sans-serif;
+}
+.left-column {
+ background-color: #104cba;
+ text-align: right;
+ width: 25%;
+ padding: 20px;
+ height: 85px;
+}
+.header-sticky-main-menu {
+ width: 75%;
+ display: flex;
+ padding: 8px;
+ font-size: 17px;
+ font-family: "Jost", sans-serif;
+ justify-content: center;
+ color: black;
+}
+
+.row-header-sticky {
+ display: flex;
+ background-color: rgb(218, 105, 105);
+ text-decoration: none;
+}
+.quote {
+ width: 149px !important;
+ height: 50px;
+ text-align: center;
+ padding: 15px;
+ margin-left: 40px !important;
+ margin: 10px;
+ font-size: 18px;
+ font-weight: bold;
+ background-color: #6610f2;
+}
+.submenu {
+ list-style: none;
+}
+.has-dropdown {
+ list-style: none;
+ color: black;
+ width: 100px;
+}
+.submenu {
+ display: none;
+}
+
+ul {
+ padding: 0px;
+ /* color: black; */
+}
+
+.menu-contents {
+ padding: 10px 0px 10px 0px;
+}
+
+.search-bar {
+ padding: 20px 0px 0px 100px;
+}
+/* header-sticky a {
+ color: black;
+} */
