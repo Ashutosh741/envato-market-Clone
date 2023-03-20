@@ -1,7 +1,7 @@
 * {
  margin: 0px;
  box-sizing: border-box;
- color: white;
+ /* height: 100%; */
 }
 a {
  text-decoration: none !important;
@@ -56,6 +56,7 @@ a {
 }
 .socials {
  padding: 0px 10px;
+ color: white;
 }
 .row-align-item-center {
  color: white;
@@ -77,6 +78,7 @@ a {
  height: 85px;
 }
 .header-sticky-main-menu {
+ height: 85px;
  width: 75%;
  display: flex;
  padding: 8px;
@@ -88,7 +90,8 @@ a {
 
 .row-header-sticky {
  display: flex;
- background-color: rgb(218, 105, 105);
+
+ /* background-color: white; */
  text-decoration: none;
 }
 .quote {
@@ -101,17 +104,30 @@ a {
  font-size: 18px;
  font-weight: bold;
  background-color: #6610f2;
+ color: white;
 }
 .submenu {
  list-style: none;
 }
 .has-dropdown {
  list-style: none;
- color: black;
- width: 100px;
+ /* padding: 20px; */
+ /* width: 100px; */
+}
+.has-dropdown a {
+ color: black !important;
 }
 .submenu {
- display: none;
+ width: 150px;
+ /* opacity: 0; */
+ /* visibility: hidden; */
+ /* transition: 0.1s; */
+ background-color: white;
+ color: black !important;
+ padding: 50px 10px 20px 20px;
+ /* text-align: start; */
+ /* transform: scaleY(0); */
+ /* transform-origin: top center; */
 }
 
 ul {
@@ -125,7 +141,197 @@ ul {
 
 .search-bar {
  padding: 20px 0px 0px 100px;
+ /* font-size: bold; */
 }
-/* header-sticky a {
- color: black;
-} */
+
+.has-dropdown:hover .submenu {
+ /* visibility: visible; */
+ /* position: relative; */
+ /* z-index: 111; */
+ background-color: #fff;
+ opacity: 1;
+ /* transform: scaleX(1); */
+}
+
+.divide-row-into-3 a {
+ color: white;
+}
+
+/* custom slider */
+
+/* Slideshow container */
+.slideshow-container {
+ max-width: 1520px;
+ position: relative;
+ margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ padding: 16px;
+ margin-top: -22px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
+ /* display: none; */
+}
+
+/* Position the "next button" to the right */
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+ /* display: block; */
+ background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+ color: #f2f2f2;
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+ color: #f2f2f2;
+ font-size: 12px;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+ cursor: pointer;
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+ background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
+
+@keyframes fade {
+ from {
+  opacity: 0.4;
+ }
+ to {
+  opacity: 1;
+ }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+ .prev,
+ .next,
+ .text {
+  font-size: 11px;
+ }
+}
+
+.popup-video {
+ background-color: #6610f2;
+ color: white;
+ cursor: pointer;
+ /* text-align: center;
+ font-weight: bold; */
+ /* line-height: 1; */
+ text-rendering: auto;
+ /* font-size: 16px; */
+ position: absolute;
+ top: 110px;
+ left: 200px;
+ font-size: 20px;
+ padding: 10px 15px 10px 15px;
+ border: 5px solid blueviolet;
+ transition: all 0.3s ease-out 0s;
+ z-index: 20;
+
+ /* background: transparent; */
+}
+.relative {
+ position: relative;
+}
+.slider-video span {
+ position: absolute;
+ font-size: 25px;
+ font-family: "Poppins", sans-serif;
+ font-weight: bold;
+ color: white;
+ top: 120px;
+ left: 280px;
+ z-index: 20;
+}
+.custom_slider .sliders::after {
+ position: absolute;
+ content: "";
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: black;
+ opacity: 0.7;
+}
+
+.slider-subtitle {
+ font-weight: bold;
+ font-size: 35px;
+ position: absolute;
+ top: 190px;
+ left: 200px;
+ font-family: "Poppins", sans-serif;
+ color: white;
+ z-index: 20;
+}
+.slider-title {
+ font-weight: bold;
+ font-size: 70px;
+ position: absolute;
+ top: 270px;
+ left: 200px;
+ font-family: "Poppins", sans-serif;
+ color: white;
+ z-index: 20;
+}
+
+.tp-btn {
+ font-weight: bold;
+ font-size: 15px;
+ position: absolute;
+ top: 460px;
+ left: 200px;
+ font-family: "Poppins", sans-serif;
+ color: white !important;
+ background-color: #104cba;
+ padding: 15px 30px 15px 30px;
+ z-index: 20;
+}
