@@ -28,3 +28,15 @@ function showSlides(n) {
  slides[slideIndex - 1].style.display = "block";
  dots[slideIndex - 1].className += " active";
 }
+
+// owl carousel
+
+$("#owl-carousel").owlCarousel({
+ loop: true,
+ margin: 30,
+ autoplayDuration: 1000,
+ autoplay: true,
+ dots: true,
+ nav: false,
+ items: 2,
+});

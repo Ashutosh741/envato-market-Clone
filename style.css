@@ -534,7 +534,7 @@ ul {
  /* padding-top: 120px; */
  margin-bottom: 40px;
  margin-top: 120px;
- height: 100vh;
+ height: 100%;
 }
 
 .row {
@@ -655,4 +655,28 @@ ul {
  display: flex;
  position: relative;
  /* right: 230px; */
+}
+.testimonial-btn {
+ width: fit-content;
+ background-color: #104cba;
+ font-size: 15px;
+ padding: 10px 20px;
+}
+.contain {
+ margin: 0 auto;
+ max-width: 1200px;
+ width: 100%;
+}
+
+.item {
+ align-items: center;
+ background-color: whitesmoke;
+ color: black;
+ display: flex;
+ height: 300px;
+ justify-content: center;
+}
+
+.testimonial__area {
+ background-color: #f4f8fb;
 }
