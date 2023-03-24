@@ -821,7 +821,56 @@ input:focus-visible {
 }
 
 .team__social_box{
-    top: 55px;
-    right: 160px;
+    top: 145px;
+    right: 135px;
     position: relative;
+    z-index : 4;
+    color: black;
+    font-size: 17px;
+    background:#104cba;
+    width: fit-content;
+    margin: auto;
+    border-radius: 4px;
+    padding : 10px 15px;
+}
+
+.team__info p{
+    position: relative;
+    top: -90px !important;
+    font-weight: bolder;
+    color: white;
+    right: 85px;
+    font-size: 20px;
+}
+.team__info span{
+    position: relative;
+    top: -100px;
+    text-decoration: underline;
+    /* font-weight: bolder; */
+    color: white;
+    right: 100px;
+}
+
+.team_social_icon{
+    /* display:none; */
+    color : white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position : relative;
+    /* z-index : 5; */
+    
+    /* opacity : 0.2; */
+    position: relative;
+    top : 145px;
+    right : -55px;
+    padding : 10px;
+    width : fit-content;
+    /* display : none; */
+    display: ;
+    
+}
+
+.team__social_box:hover  .team_social_icon{
+    display : block;
 }
