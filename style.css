@@ -966,3 +966,123 @@ input:focus-visible {
 .choice_bakbak{
     padding-top: 20px;
 }
+
+.popular_btn{
+    margin-top: 120px;
+    margin-bottom: 40px;
+    width: fit-content;
+    background-color: #104cba;
+    /* font-size: 15px; */
+    padding: 10px 15px;
+    /* width: 180px; */
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.upper_project{
+    padding-top : 120px;
+    background-image: url('./images/project-bg.jpg');
+}
+.project_heading{
+    color : white;
+    padding : 30px;
+    font-weight: bolder;
+}
+.item{
+    height : 247px;
+    width: fit-content;
+    display: block;
+}
+
+.best_projects{
+    position : relative;
+    top : 0px;
+    padding-bottom : 30px;
+    margin-bottom: 200px;;
+}
+
+.project_item{
+    position : relative;
+    background-color: #104CE3;
+    color : white;
+    padding : 20px 10px;
+    bottom : 130px;
+    margin:12px;
+}
+/* .project_img{
+    width : fit-content;
+    height: 900px;
+} */
+
+.owl-stage-outer{
+    top  : 35px;
+}
+
+.companies_name{
+    padding-bottom: 200px;
+}
+
+.company_heading{
+    font-size : 25px;
+    padding-bottom : 30px;
+}
+.blog_btn{
+    width: fit-content;
+    background-color: #104cba;
+    padding: 10px 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.blog_heading{
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.blog_date{
+    width: fit-content;
+    background-color: #104cba;
+    padding: 10px 15px;
+    color: white;
+    font-size: 15px;
+    /* margin : 20px; */
+    border-radius: 10px;
+    font-weight: bolder;
+    /* margin: auto; */
+}
+.non_image{
+    margin : 20px;
+}
+.admin i{
+    color :#104cba;
+}
+
+.comments i{
+    color :#104cba;
+}
+
+.admin span{
+    padding-left : 7px;
+    padding-right : 20px;
+    opacity :  0.7;
+}
+.comments span{
+    opacity : 0.7;
+}
+
+.about_blog{
+    opacity : 0.7;
+}
+.read_more{
+    text-align: left;
+    opacity : 0.7;
+    padding-top : 10px;
+}
+.blog_content{
+    background-color: #f4f8fb;
+}
