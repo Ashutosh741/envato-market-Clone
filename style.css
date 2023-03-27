@@ -1086,3 +1086,89 @@ input:focus-visible {
 .blog_content{
     background-color: #f4f8fb;
 }
+
+.footer_area{
+    margin-top : 50px;
+    margin-bottom : 50px;
+    background-image: url('./images/footer-bg.jpg');
+    color : white;
+    padding-top : 100px;
+    padding-bottom : 80px;
+}
+
+.about_content{
+    font-size : 15px;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    opacity : 0.7
+}
+
+.about_heading{
+    font-size : 20px;
+}
+
+.le_icons{
+    color : white;
+    padding-right : 12px;
+    margin-right : 12px;
+    border-radius: 50%; 
+    background-color:#0e1e2a;
+    font-size : 20px;
+}
+
+.link_title{
+    font-size:20px;
+}
+
+.link{
+    /* padding-top : 10px; */
+    padding-bottom : 10px;
+    opacity : 0.7;
+}
+.contact_us_title{
+    font-size : 20px;
+}
+
+.contact_detail{
+    /* padding-top : 20px; */
+    padding-bottom : 10px;
+    
+}
+.contact_detail span{
+    opacity : 0.7;
+}
+.contact_detail i{
+    color :#104cba
+}
+.timing{
+    padding-top : 10px;
+    font-size : 15px;
+    opacity : 0.7;
+}
+.newsletter_des{
+    font-size : 15px;
+    padding-top : 30px;
+    padding-bottom : 30px;
+    opacity : 0.7;
+}
+
+#email{
+    background-color: #162b3b;
+    text-decoration: none;;
+    border : none;
+    padding : 15px;
+}
+
+.send_btn{
+    background-color:#104cba;
+    padding : 15px;
+    text-align : center;
+}
+.call_icon{
+    /* background-color: #053895 */
+    font-size : 40px;
+    color : #104CE3
+}
+.experts{
+    opacity : 0.7;
+}
